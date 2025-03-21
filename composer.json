@@ -1,0 +1,24 @@
+{
+    "name": "birdsinthesun/iso_masonry",
+    "type": "contao-bundle",
+    "description": "Ein Custom-Bundle für Contao",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dein Name",
+            "email": "dein@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "contao/core-bundle": "^4.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "birdsinthesun\\IsoMasonryBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "birdsinthesun\\IsoMasonryBundle\\ContaoManager\\Plugin"
+    }
+}
