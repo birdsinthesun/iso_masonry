@@ -1,12 +1,12 @@
 {
     "name": "birdsinthesun/iso_masonry",
     "type": "contao-bundle",
-    "description": "Ein Custom-Bundle für Contao",
+    "description": "Das Bundle ist eher privat und für andere wenig zu gebrauchen",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dein Name",
-            "email": "dein@email.com"
+            "name": "Monique Hahnefeld",
+            "email": "hello@bits-design.de"
         }
     ],
     "require": {
@@ -15,10 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "birdsinthesun\\IsoMasonryBundle\\": "src/"
+            "Bits\\IsoMasonryBundle\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "birdsinthesun\\IsoMasonryBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Bits\\IsoMasonryBundle\\ContaoManager\\Plugin"
     }
 }

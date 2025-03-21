@@ -1,6 +1,6 @@
 <?php
 
-namespace IsoMasonry\Model\Product;
+namespace Bits\IsoMasonry\Model\Product;
 
 use Isotope\Model\Product;
 

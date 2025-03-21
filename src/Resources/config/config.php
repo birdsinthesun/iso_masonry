@@ -1,4 +1,4 @@
 <?php
 
-$GLOBALS['ISO_PRODUCT']['IsoMasonry'] = 'IsoMasonry\Model\Product\IsoMasonryProduct';
+$GLOBALS['ISO_PRODUCT']['IsoMasonry'] = 'Bits\IsoMasonry\Model\Product\IsoMasonryProduct';
 

@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\ContaoMyCustomBundle\ContaoManager;
+namespace Bits\IsoMasonryBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;

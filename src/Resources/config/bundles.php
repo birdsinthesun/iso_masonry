@@ -1,5 +1,5 @@
 <?php
 
 return [
-    IsoMasonry\IsoMasonryBundle::class => ['all' => true],
+    Bits\IsoMasonry\IsoMasonryBundle::class => ['all' => true],
 ];
