@@ -13,7 +13,7 @@ class Plugin implements BundlePluginInterface
     {
         return [
             BundleConfig::create(IsoMasonryBundle::class)
-                ->setLoadAfter([ContaoCoreBundle::class])
+                ->setLoadAfter([ContaoCoreBundle::class,'isotope','isotope_rules','isotope_reports'])
         ];
     }
 }

@@ -1,13 +1,12 @@
 <?php
-namespace App\ContaoMyCustomBundle;
+namespace Bits\IsoMasonryBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoMyCustomBundle extends Bundle
+class IsoMasonryBundle extends Bundle
 {
-     public function boot()
+      public function getPath(): string
     {
-        // Hier die Produktmodell-Klasse registrieren
-        \Isotope\Model\Product::registerModel('IsoMasonryProduct', \IsoMasonry\Model\Product\IsoMasonryProduct::class);
+        return \dirname(__DIR__);
     }
 }

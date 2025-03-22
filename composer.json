@@ -18,7 +18,7 @@
             "Bits\\IsoMasonryBundle\\": "src/"
         }
     },
-    "extra": {
+  "extra": {
         "contao-manager-plugin": "Bits\\IsoMasonryBundle\\ContaoManager\\Plugin"
     }
 }
