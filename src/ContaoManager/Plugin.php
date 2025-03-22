@@ -6,6 +6,7 @@ use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Bits\IsoMasonryBundle\IsoMasonryBundle;
 
 class Plugin implements BundlePluginInterface
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Bits\IsoMasonryBundle\ContaoManager;
+namespace Bits\IsoMasonryBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
