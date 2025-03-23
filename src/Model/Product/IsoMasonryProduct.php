@@ -5,6 +5,7 @@ namespace Bits\IsoMasonryBundle\Model\Product;
 use Isotope\Model\Product\Standard;
 use Contao\System;
 use Contao\Model\FilesModel;
+use Isotope\Template;
 
 
 class IsoMasonryProduct extends Standard

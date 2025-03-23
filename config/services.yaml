@@ -1,7 +1,8 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     Bits\IsoMasonryBundle\:
         resource: '../src/*'
         exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
-
-parameters:
-    my_custom_parameter: 'Hello World'
