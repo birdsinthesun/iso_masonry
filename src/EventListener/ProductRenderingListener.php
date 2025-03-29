@@ -33,7 +33,7 @@ class ProductRenderingListener
                 
                 
                 $objTemplate->src_preview = $imageResizer->resizeAndCacheImage("/isotope/".$isotopeSubFolder."/".$arrImages[0]['src'], 300,null);
-                $objTemplate->src_fullsize = $imageResizer->resizeAndCacheImage("/isotope/".$isotopeSubFolder."/".$arrImages[0]['src'], 1480,900);
+                $objTemplate->src_fullsize = $imageResizer->resizeAndCacheImage("/isotope/".$isotopeSubFolder."/".$arrImages[0]['src'], null,900);
         }elseif($objProduct->getType()->__get('name') == 'Amazon'){
             
                 $objTemplate->src = $imageResizer->resizeAndCacheImage("/isotope/".$isotopeSubFolder."/".$arrImages[0]['src'], 400,400);
