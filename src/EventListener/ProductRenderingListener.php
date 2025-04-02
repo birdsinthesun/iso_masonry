@@ -16,7 +16,7 @@ class ProductRenderingListener
         $isotopeSubFolder = mb_substr($arrImages[0]['src'],0,1);
         $imageResizer = new ImageResizer();
         
-        if($objProduct->getType()->__get('name') == 'Tattoo'){
+        if($objProduct->getType()->__get('name') == 'Tattoo' || $objProduct->getType()->__get('name') == 'Kettensägenkunst'){
                 
                 $arrAttributeMotiv = explode(',',$objProduct->__get('motiv'));
                 $arrMotiv = [];
